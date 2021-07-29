@@ -1,5 +1,5 @@
 {
-  "name": "@scaleleap/typescript-template",
+  "name": "@moltar/texthighlighter-ts",
   "version": "0.0.0",
   "description": "TypeScript Project Template",
   "license": "MIT",
@@ -8,13 +8,13 @@
     "email": "roman@scaleleap.com",
     "url": "https://www.scaleleap.com/"
   },
-  "homepage": "https://github.com/ScaleLeap/typescript-template",
+  "homepage": "https://github.com/moltar/texthighlighter-ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ScaleLeap/typescript-template.git"
+    "url": "git@github.com:moltar/texthighlighter-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/ScaleLeap/typescript-template/issues"
+    "url": "https://github.com/moltar/texthighlighter-ts/issues"
   },
   "main": "lib/index.js",
   "files": [
