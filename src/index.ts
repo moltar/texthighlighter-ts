@@ -1,3 +1,3 @@
-export function helloWorld() {
-  return 'hello world'
-}
+export * from "./common/helpers";
+export { default } from "./core/TextHighlighter";
+export * from "./types";

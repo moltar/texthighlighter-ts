@@ -1,13 +1,29 @@
 {
-  "extends": "tsconfigs/nodejs-module",
   "compilerOptions": {
+    "target": "es2019",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./lib",
     "lib": [
-      "ES2019"
+      "es2019",
+      "dom"
     ],
-    "target": "ES2019"
+    "strict": true,
+    "types": [
+      "jest",
+      "node"
+    ]
   },
   "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
+    "src/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/tests/*"
   ]
 }
